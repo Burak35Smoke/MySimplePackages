@@ -1,0 +1,28 @@
+/*
+
+Package Name : Bounce Animation
+
+Author:
+Github: Burak35Smoke
+Web: https://bur4k.social
+R10.NET: https://www.r10.net/profil/126637-pixeldev.html
+
+Version : 0.0.3
+
+*/
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
