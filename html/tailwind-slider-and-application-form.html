@@ -1,0 +1,95 @@
+<div class="md:flex mt-10">
+    <div class="sm:w-screen md:w-9/12 md:pr-4">
+        <div id="default-carousel w-full" class="relative" data-carousel="slide">
+            <!-- Carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96 w-full">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/public/default/img/bg-pattern2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/public/default/img/bg-pattern2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/public/default/img/bg-pattern2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/public/default/img/bg-pattern2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="/public/default/img/bg-pattern2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+            </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-8 left-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+
+    </div>
+    <div class="sm:w-screen md:w-3/12 md:pl-4">
+
+        <div class="w-full max-w-sm p-2 bg-white border border-gray-200 rounded-lg shadow sm:p-8 bg-gray-600 border-gray-500 dark:bg-gray-800 dark:border-gray-700">
+            <img style="animation: bounce 1s infinite alternate;-webkit-animation: bounce 1s infinite alternate;" class="mx-auto" src="/public/default/img/customerformhead.png" alt="İletişim">
+            <h2 class="mb-2 text-xl text-center font-medium text-red-500 dark:text-red-600">ÜCRETSİZ EĞİTİM!</h2>
+            <h6 class="text-xl text-gray-200 text-center font-medium">Eğitim İçin Hemen Ön Bilgi Alın!</h6>
+            <hr class="py-2 mt-2 w-full">
+            <form>
+
+                <div class="mb-1">
+                    <label for="text" class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Adınızı ve Soyadınızı Giriniz</label>
+                    <input name="adsoyad" type="text" placeholder="Adınızı ve Soyadınızı Giriniz" id="adsoyad" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500" required>
+                </div>
+
+                <div class="mb-1">
+                    <label for="text" class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">GSM Numaranızı Giriniz</label>
+                    <input name="gsmno" type="text" id="gsmno" placeholder="(5__) ___-____" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500" required>
+                </div>
+
+                <div class="mt-1 mb-1">
+                    <label for="subeler" class="block mb-1 text-sm font-medium text-gray-900 dark:text-white">Şube Seçiniz</label>
+                    <select name="subeler" id="subeler" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500">
+                        <option>İstanbul/Kadıköy</option>
+                        <option>İstanbul/Kadıköy</option>
+                        <option>İstanbul/Kadıköy</option>
+                        <option>İstanbul/Kadıköy</option>
+                    </select>
+                </div>
+
+                <div class="flex items-start mt-2">
+                    <div class="flex items-center h-5">
+                        <input id="remember" type="checkbox" value="" class="w-4 h-4 text-red-400 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-red-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-red-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required>
+                    </div>
+                    <label for="remember" class="ml-2 text-2xs font-medium text-gray-900 dark:text-gray-300">Bilgi Formunu Doldurarak, Yasal Uyarı/Kullanım Şartlarını Kabul Ediyorum.</label>
+                </div>
+                <button type="submit" class="mt-2 text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Hemen Ön Bilgi Al!</button>
+        </div>
+        </form>
+    </div>
+
+</div>
